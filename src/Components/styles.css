@@ -1,0 +1,305 @@
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* login.css */
+  .login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e3f2fd; /* Blue background color */
+  }
+  
+  .login-form {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0d47a1; /* Dark blue button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #1565c0; /* Dark blue button on hover */
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .register-link p {
+    text-align: center;
+  }
+  
+  .register-link a {
+    color: #0d47a1; /* Dark blue link color */
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+    /* registration.css */
+  .registration-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e3f2fd; /* Blue background color */
+  }
+  
+  .registration-form {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0d47a1; /* Dark blue button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #1565c0; /* Dark blue button on hover */
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+
+
+  
+
+  /* Dashboard.css */
+
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    background-color: #e3f2fd; /* Blue background color */
+  }
+  
+  .sidebar {
+    flex: 0 0 auto;
+    width: 250px;
+    padding: 20px;
+    background-color: #0d47a1; /* Dark blue sidebar */
+    color: white;
+    text-align: left;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  
+
+
+
+  /* AddBook.css */
+
+.add-book-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e3f2fd; /* Blue background color */
+  }
+  
+  .add-book-form {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-book-form div {
+    margin-bottom: 20px; /* Spacing between input fields */
+  }
+  
+  .add-book-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .add-book-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-book-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #2196f3; /* Blue button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-book-form button:hover {
+    background-color: #0d47a1; /* Darker blue on hover */
+  }
+  
+  .add-book-form a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #2196f3; /* Blue link color */
+  }
+  
+  .add-book-form a:hover {
+    text-decoration: underline;
+  }
+  
+
+  /*manageaccount*/
+  .manage-account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #e3f2fd; /* Blue background color */
+    padding: 20px;
+  }
+  
+  .manage-account h2 {
+    margin-bottom: 20px;
+  }
+  
+  .user-details {
+    margin-bottom: 20px;
+  }
+  
+  .user-details p {
+    margin: 10px 0;
+  }
+  
+  .btn-delete {
+    padding: 10px 20px;
+    background-color: #0d47a1; /* Dark blue button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .btn-delete:hover {
+    background-color: #1565c0; /* Dark blue button on hover */
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .link-back {
+    margin-top: 20px;
+  }
+  
+  .link-back a {
+    color: #0d47a1; /* Dark blue link color */
+    text-decoration: none;
+  }
+  
+  .link-back a:hover {
+    text-decoration: underline;
+  }
+  
